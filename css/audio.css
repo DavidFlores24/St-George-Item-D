@@ -1,76 +1,43 @@
 @charset "UTF-8";
 /* CSS Document */
-
 img
 {
-	height:auto;
-	width:100%;
-	left:15%;
+	height:600px;
+	width:auto;
+	left:10%;
+	position: relative;
 }
 
 #transcript
 {
-	background-color:rgb(122, 147, 70);
-	top: 50%;
-	height: 650px;
+	position: absolute;
+	top: 10%;
+	font-size: 1.3em;
+	height: 720px;
 	color: rgb(255, 247, 225);
 }
 
-#transcript p
-{
-	position:relative;
-	top: 10%;
-	font-size:1.5em;
-}
-
-#transcript h3
-{
-	position: relative;
-	text-align:  right;
-	top:10%;
+h3 {
+	margin-bottom: 10px;
 }
 
 body
 {
-	background-color: #9bb1c1;
+	background: url(../img/Audio.jpg);
+	background-size: cover;
 	color: rgb(255, 247, 225);
+	line-height: 2.2em;
 }
 
-footer
+.btn-default
 {
-	float:right;
-	background-color: rgb(122, 147, 70);
-	width: 50%;
-	text-align: right;
-}
-
-footer p
-{
-	color: rgb(255, 247, 225);
+	position:absolute;
+	bottom:5px;
+	right:20px;
+	background-color: rgba(41, 88, 75, 0.7);
 	text-decoration: none;
-	margin-right:5%;
 }
 
-#transcript p
-{
-	transform: translateY(50%);
-}
-
-footer p
-{
-	font-size:1.5em;
-	padding:5px;
-	bottom:10px;
-}
-
-.background img
-{
-	width: 600px;
-	height:auto;
-	margin: 100px 20px 100px 0px;
-}
-
-#main
-{
-	background-color: #9bb1c1;
+a {
+	color:white;
 }
