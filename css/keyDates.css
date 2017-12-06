@@ -48,9 +48,11 @@ p i {
 
 .carousel-caption p
 {
-	text-align: left;
+	text-align: justify;
 	font-size: 1.5em;
-	padding-left: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
 }
 
 .carousel-caption audio
@@ -120,9 +122,10 @@ a {
 	top: 10px;
 }
 
-.overflow-caption {
+.overflow-caption{
 	padding-right: 100px;
-	left:40%;
+	padding-left: 20px;
+	left:50%;
 }
 
 i {
